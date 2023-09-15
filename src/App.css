@@ -1,3 +1,13 @@
+body {
+  /* background: rgb(77, 196, 218);
+  background: linear-gradient(309deg, rgba(77, 196, 218, 1) 53%, rgba(74, 94, 204, 1) 84%, rgba(77, 99, 218, 1) 94%); */
+  background: rgb(77, 196, 218);
+  background: linear-gradient(264deg, rgba(77, 196, 218, 1) 53%, rgba(74, 94, 204, 1) 84%, rgba(77, 99, 218, 1) 94%);
+  /* background: rgb(34, 193, 195);
+  background: radial-gradient(circle, rgba(34, 193, 195, 1) 0%, rgba(253, 187, 45, 1) 100%); */
+  /* background-color: grey; */
+}
+
 .App {
   text-align: center;
 }
@@ -35,4 +45,13 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.main {
+  background: rgb(77, 196, 218);
+  background: radial-gradient(circle, rgba(77, 196, 218, 1) 27%, rgba(144, 158, 237, 1) 47%, rgba(83, 104, 219, 1) 86%);
+}
+.main2 {
+  background: rgb(77, 196, 218);
+  background: radial-gradient(circle, rgba(77, 196, 218, 1) 27%, rgba(144, 158, 237, 1) 47%, rgba(83, 104, 219, 1) 86%);
 }
